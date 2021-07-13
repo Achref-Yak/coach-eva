@@ -1,15 +1,8 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Login
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
+ 
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Login</ion-title>
+      <ion-title size="large">Blank</ion-title>
     </ion-toolbar>
   </ion-header>
 
@@ -25,17 +18,17 @@
  
         <ion-col>
           <div class="welcome">
-            <b>Bienvenue</b>
+            <b>Creer Votre Compte</b>
           </div>
         </ion-col>
       </ion-row>
       <ion-row>
         <ion-col>
-          <form (ngSubmit)="logIn()">
+          <form (ngSubmit)="creerCompte()">
           <div>
     
               <ion-item>
-                <ion-label color="primary" position="floating">Name</ion-label>
+                <ion-label color="primary" position="floating">Nom Prenom</ion-label>
                 <ion-icon name="person" color="primary" slot="start"></ion-icon>
                 <ion-input autocorrect="on" autofocus="on" clearInput="true" clearOnEdit="true" color="primary" inputmode="text" placeholder="Enter your name" required="true"></ion-input>
         
@@ -46,7 +39,7 @@
           <div>
     
             <ion-item>
-              <ion-label color="primary" position="floating">Password</ion-label>
+              <ion-label color="primary" position="floating">Email</ion-label>
               <ion-icon name="person" color="primary" slot="start"></ion-icon>
               <ion-input autocorrect="on" autofocus="on" clearInput="true" clearOnEdit="true" color="primary" type="password" placeholder="Enter your name" required="true"></ion-input>
       
@@ -54,7 +47,31 @@
             
    
         </div>
-        <button class="submitForm" ion-button type="submit" block>Connexion</button>
+
+        <div>
+    
+          <ion-item>
+            <ion-label color="primary" position="floating">Mot de passe</ion-label>
+            <ion-icon name="person" color="primary" slot="start"></ion-icon>
+            <ion-input autocorrect="on" autofocus="on" clearInput="true" clearOnEdit="true" color="primary" type="password" placeholder="Enter your name" required="true"></ion-input>
+    
+          </ion-item>
+          
+ 
+      </div>
+
+      <div>
+    
+        <ion-item>
+          <ion-label color="primary" position="floating">Confirmer votre mot de passe</ion-label>
+          <ion-icon name="person" color="primary" slot="start"></ion-icon>
+          <ion-input autocorrect="on" autofocus="on" clearInput="true" clearOnEdit="true" color="primary" type="password" placeholder="Enter your name" required="true"></ion-input>
+  
+        </ion-item>
+        
+
+    </div>
+        <button class="submitForm" ion-button type="submit" block>Add Todo</button>
       </form>
         <div>
 

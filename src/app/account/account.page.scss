@@ -1,0 +1,47 @@
+ 
+
+ion-header{
+  
+    --ion-background-color:linear-gradient(90deg, rgba(36,114,56,1) 0%, rgba(142,191,37,1) 100%, rgba(142,191,37,1) 100%);
+  }
+
+
+  .title{
+    color: white;
+  }
+ 
+
+  .cover{
+    background-size: cover;
+      height: 200px;
+  }
+
+
+  .larger {
+    font-size: 30px;
+}
+.Profile{
+    position: absolute;
+    bottom: 10px;
+    width: 90%;
+    color: white;
+    margin: 40px;
+}
+
+.Profile-header{
+    width: 100%;
+}
+
+.buttomMenu
+{
+    background-color: rgb(214, 214, 214);
+    width: auto;
+    height: 60px;
+    border-end-start-radius: 20px;
+    border-end-end-radius: 20px;
+    border-start-start-radius: 20px;
+    border-start-end-radius: 20px;
+    margin: 10px;
+    --tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
